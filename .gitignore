@@ -65,8 +65,6 @@ coverage/
 *.sublime*
 *.swp
 
-# Ignore everything in the `app/public` directory
-app/public/
-
-# Except for your project files
-!app/public/*
+# Include the public folder but ignore all files within it
+/app/public/*
+!.gitkeep
