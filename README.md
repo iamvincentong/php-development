@@ -40,7 +40,7 @@ Ensure you have Docker and Docker Compose installed on your machine.
    docker compose up --build
    ```
 
-3. Open your web browser and visit 127.0.0.1 to see your project up and running!
+3. Open your web browser and visit `http://127.0.0.1/` to see your project up and running!
 
 ## Extending the Environment
 
