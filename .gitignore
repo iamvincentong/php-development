@@ -1,0 +1,72 @@
+# Node modules
+node_modules/
+
+# Dependency directories
+vendor/
+
+# PHPStorm project files
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Log files
+*.log
+
+# Composer dependencies
+composer.phar
+
+# Environment variables
+.env
+
+# Docker files
+docker-compose.override.yml
+docker-compose.override.yaml
+.dockerignore
+
+# Generated files
+/public/css/
+public/js/
+public/storage/
+
+# Ignoring Docker containers and images
+*.tar
+*.img
+
+# Database files
+*.sql
+*.sqlite
+
+# Local development files
+.env.local
+.env.*.local
+
+# PHPUnit result cache
+.phpunit.result.cache
+
+# Backup files
+*.bak
+*.swp
+
+# Temporary files
+/tmp
+temp/
+
+# Build directories
+build/
+dist/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# IDE and editor specific files
+*.vscode
+*.sublime*
+*.swp
+
+# Ignore everything in the `app/public` directory
+app/public/
+
+# Except for your project files
+!app/public/*
